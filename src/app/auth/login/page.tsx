@@ -10,7 +10,7 @@ import { useForm, SubmitHandler } from "react-hook-form"
 
 const LoginForm = () => {
     const router = useRouter()
-    const {register, handleSubmit } = useForm<ILogin>()
+    const { register, handleSubmit } = useForm<ILogin>();
 }
 
 const onLoginUser = ({email, password}:ILogin) => {
